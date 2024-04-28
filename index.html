@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <div class="container">
+        <img src="assets/img/background.jpg" alt="" class="background">
         <h1>Caesar Cipher</h1>
         <select id="method">
             <option value="encrypt">Encrypt</option>
@@ -19,9 +20,12 @@
         <input type="number" id="shiftKey" placeholder="Enter shift key">
         <br>
         <button onclick="caesarCipher()">Submit</button>
-        <h2 id="output"></h2>
+        <h2>OUTPUT :</h2>
+        <div class="output">
+            <h3 id="output"></h3>
+        </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

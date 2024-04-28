@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+.container {
+  text-align: center;
+}
+.container .background {
+  opacity: 0.8;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+.container h1 {
+  font-size: 80px;
+  margin: 10px;
+  color: aliceblue;
+  background: -webkit-linear-gradient(rgb(11, 3, 255) , #1481e0, rgb(3, 247, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: aliceblue;
+}
+.container #method {
+  font-size: 20px;
+  color: antiquewhite;
+  background-color: rgb(19, 120, 178);
+  padding: 5px;
+  margin: 10px;
+  border-radius: 50px;
+}
+.container input{
+  color: aliceblue;
+  font-size: 20px;
+  background-color: rgb(19, 120, 178);
+  padding: 5px;
+  margin: 5px;
+  border-radius: 50px;
+}
+::placeholder {
+  color: aliceblue;
+  opacity: 0.6; /* Firefox */
+  padding: 3px;
+}
+button {
+  margin: 20px;
+  padding: 5px 10px;
+  font-size: 20px;
+  font-weight: 1000;
+  background: -webkit-linear-gradient(rgb(11, 3, 255) , #1481e0, rgb(3, 247, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-radius: 30PX;
+  text-transform: uppercase;
+}
+.container h2 {
+  font-size: 40px;
+  margin: 10px;
+  color: aliceblue;
+  background: -webkit-linear-gradient(rgb(11, 3, 255) , #1481e0, rgb(3, 247, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: aliceblue;
+}
+.container .output{
+  display: inline-flex;
+  padding: 0px 10px;
+  border-radius: 10px;
+  background-color: rgb(19, 120, 178);
+}
+.container #output{
+  font-size: 25px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0.9px;
+  -webkit-text-stroke-color: aliceblue;
+} 

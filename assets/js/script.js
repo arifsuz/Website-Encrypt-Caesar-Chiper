@@ -23,5 +23,5 @@ function caesarCipher() {
     }
   }
 
-  document.getElementById("output").innerText = "Output: " + outputText;
+  document.getElementById("output").innerText = outputText;
 }
